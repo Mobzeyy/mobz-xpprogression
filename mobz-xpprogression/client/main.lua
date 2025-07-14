@@ -289,7 +289,7 @@ RegisterCommand("openxpadmin", function()
 					title = 'View Progress (Read-only)',
 					icon = 'fa-solid fa-eye',
 					onSelect = function()
-						TriggerServerEvent("xpadmin:showPlayerStats", player.source)
+						TriggerServerEvent("xpadmin:showPlayerStats")
 					end
 				}
             }
